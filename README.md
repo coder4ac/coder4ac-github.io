@@ -1,2 +1,2 @@
 # coder4ac-github.io
-Personal webpage
+This is my personal webpage, as well as a frontend practice with HTML/CSS/JavaScript.
