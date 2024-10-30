@@ -8,9 +8,10 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 </head>
+
 <body>
+    <div id="whole">
     <header>
-        <h1>Welcome to My Space</h1>
         <ul>
             <li><a onclick="showSection('Home')">Home</a></li>
             <li><a onclick="showSection('Education')">Education</a></li>
@@ -19,13 +20,11 @@
             <li><a onclick="showSection('My Life')">My Life</a></li>
         </ul>
     </header>
-
     <main>
         <section id="Home">
-            <h2 style="text-align: center;">About me</h2>
-            <br>
             <img src="images/IMG_3914.jpg", alt="IMG3914", width="320px", height="240px">
-            <p>Hi, I'm Sihang — a former mechanical engineer now pursuing a master's degree in Computer Science at the Colorado School of Mines.</p>
+            <h2>Hi, I'm Sihang</h2>
+            <p> — a former mechanical engineer now pursuing a master's degree in Computer Science at the Colorado School of Mines.</p>
             <br>
             <p>My passion for programming began with solving algorithmic challenges in my spare time. I'm continually inspired by elegantly
                  designed algorithms like KMP and Kadane's, and I strive to write clean, efficient code to tackle complex problems and bring 
@@ -33,28 +32,27 @@
             <br>
             <p>Outside of work and academics, I love road trips and hiking. Since arriving in the U.S. two years ago, I've driven over 30,000 miles, 
                 visited more than 20 National Parks, and explored every state west of the Rockies.</p>
-            <br>
         </section>
     
         <section id="Education">
-            <h2>Education</h2>
+            <h2 style="text-align: center;">Education</h2>
             <a href="https://www.mines.edu/" title="Visit www.mines.edu">
             <img src="images/Colorado_School_of_Mines_seal.svg.png", alt="Mines Emblem", width="60px", height="60px">
             <p>Colorado School of Mines</p>
             </a>
             <p>M.S in Computer Science</p>
-            <p>Aug 2022 -- Dec 2024</p>
+            <p><i>Aug 2022 -- Dec 2024</i></p>
             <br>
             <a href="https://en.sjtu.edu.cn/" title="Visit en.sjtu.edu.cn">
             <img src="images/Sjtu-logo-standard-red.png", alt="SJTU Emblem", width="60px", height="60px">
             <p>Shanghai Jiao Tong University</p>
             </a>
             <p>B.S in Mechanical Engineering</p>
-            <p>Sep 2008 -- Jun 2012</p>
+            <p><i>Sep 2008 -- Jun 2012</i></p>
         </section>
     
         <section id="Experience">
-            <h2>Experience</h2>
+            <h2 style="text-align: center;">Experience</h2>
             <div>
                 <p>
                     <b>Teaching Assisstant</b>
@@ -83,7 +81,9 @@
                 <p>
                     <b>Software Development Intern</b>
                     <br>
-                    Azbil North America R&D, Jun 2023 -- Dec 2023
+                    Azbil North America R&D
+                    <br>
+                    <i>Jun 2023 -- Dec 2023</i>
                     <br>
                     • Conducted comprehensive data cleansing for smart plant sensor datasets
                     <br>
@@ -98,7 +98,9 @@
                 <p>
                     <b>Mechanical Engineer</b>
                     <br>
-                    CHD Group, Aug 2016 -- May 2022
+                    CHD Group
+                    <br>
+                    <i>Aug 2016 -- May 2022</i>
                     <br>
                     • Trained malfunction forecasting model by machine learning on control system
                     <br>
@@ -110,12 +112,12 @@
         </section>
     
         <section id="Projects">
-            <h2>Projects</h2>
+            <h2 style="text-align: center;">Projects</h2>
             <p>This is the Contact section of the page.</p>
         </section>
     
         <section id="My Life">
-            <h2>My Life</h2>
+            <h2 style="text-align: center;">My Life</h2>
             <p>This is the My Life section of the page.</p>
         </section>
     </main>
@@ -136,10 +138,11 @@
     </script>
 
     <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/sihang-wang/">LinkedIn</a> 
-            | <a href="#">GitHub</a> 
-            | <a href="https://leetcode.com/u/SihangWang/">LeetCode</a>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/sihang-wang/">LinkedIn</a> |
+             <a href="https://github.com/coder4ac">GitHub</a> |
+             <a href="https://leetcode.com/u/SihangWang/">LeetCode</a>
         </p>
     </footer>
+    </div>
 </body>
 </html>
