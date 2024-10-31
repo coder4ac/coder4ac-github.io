@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sihang's Space</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slideshow.css"> 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
@@ -22,7 +23,10 @@
     <div class="content">
     <main>
         <section id="About">
-            <img src="images/IMG_3914.jpg", alt="IMG3914", width="320px", height="240px">
+            <div id="slideshow" style="display: block;float: left;margin: 15px;">
+            <img src="images/IMG_3914.jpg", alt="McDonald Lake", class="active">
+            <img src="images/IMG_6163.jpg", alt="Grand Teton">
+            </div>
             <h2 style="text-align: left;">Hi, I'm Sihang</h2>
             <p> — a former mechanical engineer now pursuing a master's degree in Computer Science at the Colorado School of Mines.</p>
             <br>
@@ -157,6 +161,18 @@
     </script>
 
     <!--Home picture slideshow script-->
+    <script>
+        const images = document.querySelectorAll('#slideshow img');
+        let currentIndex = 0;
+
+        function showNextImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(showNextImage, 4000);
+    </script>
 
     <footer>
         <p>Connect with me on 

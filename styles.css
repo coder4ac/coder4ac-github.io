@@ -81,15 +81,6 @@ section h2 {
     margin-bottom: 10px;
 }
 
-img {
-    display: block;
-    float: left;
-    margin: 15px;
-    border-radius: 10px;
-    max-width: 45%;
-    height: auto;
-}
-
 /* Footer styling */
 footer {
     text-align: center;
