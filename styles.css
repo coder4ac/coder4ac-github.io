@@ -69,8 +69,7 @@ section {
     min-width: 200px;
     max-width: 100vh;
     margin:auto;
-    padding: 20px;
-    border: 1px solid #1d1d1d;
+    padding: 30px;
     background-color: #eeeeee;
 }
 
@@ -101,5 +100,4 @@ footer {
 
 footer a {
     text-decoration: #3498db;
-    text-decoration: underline;
 }

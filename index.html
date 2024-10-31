@@ -12,23 +12,29 @@
 <div class="whole">
     <header>
         <ul class="menu">
-            <li><a onclick="showSection('Home')">Home</a></li>
-            <li><a onclick="showSection('Education')">Education</a></li>
-            <li><a onclick="showSection('Experience')">Experience</a></li>
-            <li><a onclick="showSection('Projects')">Projects</a></li>
-            <li><a onclick="showSection('My Life')">My Life</a></li>
+            <li><a onclick="showSection('About')">ABOUT</a></li>
+            <li><a onclick="showSection('Education')">EDUCATION</a></li>
+            <li><a onclick="showSection('Experience')">EXPERIENCE</a></li>
+            <li><a onclick="showSection('Projects')">PROJECTS</a></li>
+            <li><a onclick="showSection('My Life')">MY LIFE</a></li>
         </ul>
     </header>
     <div class="content">
     <main>
-        <section id="Home">
+        <section id="About">
             <img src="images/IMG_3914.jpg", alt="IMG3914", width="320px", height="240px">
-            <h2>Hi, I'm Sihang</h2>
+            <h2 style="text-align: left;">Hi, I'm Sihang</h2>
             <p> — a former mechanical engineer now pursuing a master's degree in Computer Science at the Colorado School of Mines.</p>
             <br>
-            <p>My passion for programming began with solving algorithmic challenges in my spare time. I'm continually inspired by elegantly
-                 designed algorithms like KMP and Kadane's, and I strive to write clean, efficient code to tackle complex problems and bring 
-                 creative projects to life.</p>
+            <p>My passion for programming began with solving algorithmic challenges on LeetCode in my spare time. I'm continually inspired by elegantly
+                 designed algorithms like <a href="https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/#">Kadane</a>, 
+                 <a href="https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/">Dijkstra</a> and 
+                 <a href="https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/">KMP</a>, they are really amazing. 
+                 And I strive to write clean, efficient code to tackle complex problems and bring creative projects to life.</p>
+            <br>
+            <p>Recently, I've been learninging Network and Web Programming myself. I find Frontend work just as fascinating as Backend development. 
+                Through selecting colors and designing page layouts, I've enhanced my aesthetic sensibility while deepening my 
+                understanding of HTML/CSS/JavaScript.</p>
             <br>
             <p>Outside of work and academics, I love road trips and hiking. Since arriving in the U.S. two years ago, I've driven over 30,000 miles, 
                 visited more than 20 National Parks, and explored every state west of the Rockies.</p>
@@ -36,6 +42,7 @@
     
         <section id="Education">
             <h2>Education</h2>
+            <br>
             <a href="https://www.mines.edu/" title="Visit www.mines.edu">
             <img src="images/Colorado_School_of_Mines_seal.svg.png", alt="Mines Emblem", width="60px", height="60px">
             <p>Colorado School of Mines</p>
@@ -96,11 +103,22 @@
             <br>
             <div>
                 <p>
+                    <b>IT Engineer & Maintenance Engineer</b>
+                    <br>
+                    CHD Group
+                    <br>
+                    <i>Jan 2020 -- May 2022</i>
+                    <br>
+                </p>
+            </div>
+            <br>
+            <div>
+                <p>
                     <b>Mechanical Engineer</b>
                     <br>
                     CHD Group
                     <br>
-                    <i>Aug 2016 -- May 2022</i>
+                    <i>Aug 2016 -- Jan 2020</i>
                     <br>
                     • Trained malfunction forecasting model by machine learning on control system
                     <br>
@@ -113,7 +131,7 @@
     
         <section id="Projects">
             <h2>Projects</h2>
-            <p>This is the Contact section of the page.</p>
+            <p>This is the projects section of the page.</p>
         </section>
     
         <section id="My Life">
@@ -122,6 +140,7 @@
         </section>
     </main>
     
+    <!--Navigation bar script-->
     <script>
         // Function to show a specific section and hide others
         function showSection(sectionId) {
@@ -134,8 +153,10 @@
         }
     
         // Show the home section by default
-        showSection('Home');
+        showSection('About');
     </script>
+
+    <!--Home picture slideshow script-->
 
     <footer>
         <p>Connect with me on 
