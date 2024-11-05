@@ -35,7 +35,7 @@ header {
     min-width: 200px;
     min-height: 100vh;
     height:100%;
-    position: fixed;
+    position:fixed;
     top: 0;
     background-color: #2f2f2f;
     background: linear-gradient(to bottom, rgb(63, 63, 63), rgb(208, 208, 208));
